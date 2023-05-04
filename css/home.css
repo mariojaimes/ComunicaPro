@@ -1,6 +1,10 @@
     /*Contenedor de Home*/
     .contenedor_home1{
-        width: 70%;
+        width: 20%;
+        margin: auto;
+    }
+    .contenedorVision{
+        width: 100%;
         margin: auto;
     }
     .contenedor_home2{
@@ -8,7 +12,7 @@
       align-items: center;
       justify-content: center;
       text-align: justify;
-      width: 90%;
+      width: 60%;
       height: auto;
       margin: auto;
       font-size: 25px;
