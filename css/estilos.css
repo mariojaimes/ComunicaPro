@@ -380,7 +380,9 @@ form{
   }
 /*Imagen de contacto*/
     .invisible{
-        width: 100%;
+        width: 50%;
+        place-items:center;
+        margin: auto;
     }
 .caja_contacto{
     width: 90%;
