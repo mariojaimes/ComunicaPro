@@ -1,6 +1,7 @@
     /*Contenedor de Home*/
     .contenedor_home1{
-        width: 100%;
+        width: 70%;
+        margin: auto;
     }
     .contenedor_home2{
       display: flex;
