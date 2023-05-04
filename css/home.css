@@ -1,0 +1,93 @@
+    /*Contenedor de Home*/
+    .contenedor_home1{
+        width: 100%;
+    }
+    .contenedor_home2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: justify;
+      width: 90%;
+      height: auto;
+      margin: auto;
+      font-size: 25px;
+      margin-bottom: 30px;
+  }
+    /*imagen Home*/
+    #imgHome{
+        width: 100%;
+        height: auto;
+      }
+    /*Letrero Home*/
+    .padre {
+        background: #023877;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-bottom: 30px;
+      }
+    /*Quienes somos*/
+    #Quien{
+      width: 100%;
+      height: auto;
+    }
+    /*Mision*/
+    #Mision{
+        width: 100%;
+        height: auto;
+      }
+    /*Vision*/
+    #Vision{
+        width: 100%;
+        height: auto;
+    }
+
+@media screen and (max-width: 720px){
+
+    /*imagen Home*/
+    #imgHome{
+        width: 100%;
+        height: auto;
+      }
+    /*Letrero Home*/
+    .padre {
+        background: #023877;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 12px;
+        margin-bottom: 20px;
+      }
+      .contenedor_home2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        width: 85%;
+        height: auto;
+        margin: auto;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    /*Mision*/
+    #Mision{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        object-position: center;
+        margin-top: 20px;
+        margin-bottom: 0px;
+      }
+    /*Vision*/
+    #Mision{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        object-position: center;
+    }
+    
+}
